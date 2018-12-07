@@ -1,61 +1,48 @@
-- name: "84.51"
-  link: https://www.8451.com/
-  image:
-    1x: /img/sponsors/8451.png
-    2x: /img/sponsors/8451@2x.png
+# sponsors.yml
+# How to use:
+# name: Name of the company
+# link: link to their webpage
+#
+# If we only have one size of their logo:
+# image: png, jpg of their logo
+# webp: webp version of their logo
+# 
+# If we have two sizes:
+# 1x, 2x: 1x and 2x png, jpg of their logo
+# webp1x, webp2x: webp versions
+# 
+# If it is an svg:
+# image: svg of the logo
+# svg: true <- this is REQUIRED
 
-- name: Kroger Technology
-  link: https://www.kroger.com/livekt/
-  image: /img/sponsors/kroger-technology.svg
-
-- name: Vantiv
-  link: https://www.vantiv.com/
-  image:
-    1x: /img/sponsors/vantiv.jpg
-    2x: /img/sponsors/vantiv@2x.jpg
-
-- name: Fifth Third Bank
-  link: https://www.53.com/
-  image: /img/sponsors/53.svg
-  
 - name: Tata Consultancy Services
-  link: https://www.tcs.com/
-  image: /img/sponsors/Tata_Logo.jpg
-  
-- name: JPMorgan Chase & Co
-  link: https://www.jpmorganchase.com/
-  image: /img/sponsors/JPMC_Logo_Black.png
+  link: https://www.tcs.com
+  image: /img/sponsors/tcs.png
+  webp: /img/sponsors/tcs.webp
 
-- name: GE Digital
-  link: https://www.ge.com/digital/
-  image:
-    1x: /img/sponsors/ge-digital_blue.png
-    2x: /img/sponsors/ge-digital_blue@2x.png
+- name: Worldpay
+  link: https://www.worldpay.com
+  image: /img/sponsors/worldpay.png
+  webp: /img/sponsors/worldpay.webp
 
-- name: Bridgeable
-  link: https://www.bridgeable.org/
-  image: /img/sponsors/bridgeable.svg
+- name: Scripps
+  link: http://scripps.com
+  image: /img/sponsors/scripps.jpg
+  webp: /img/sponsors/scripps.webp
 
-- name: School of IT
-  link: http://cech.uc.edu/it.html
-  image:
-    1x: /img/sponsors/school-of-it.png
-    2x: /img/sponsors/school-of-it@2x.png
+- name: GE Aviation
+  link: https://www.geaviation.com
+  image: /img/sponsors/ge.svg
+  svg: true
+
+- name: Major League Hacking
+  link: https://mlh.io/
+  image: /img/sponsors/mlh.svg
+  svg: true
 
 - name: ACM@UC
   link: https://acmatuc.org/
-  image:
-    1x: /img/sponsors/acmatuc.png
-    2x: /img/sponsors/acmatuc@2x.png
+  image: /img/sponsors/acmatuc.svg
+  svg: true
 
-- name: MLH
-  link: https://mlh.io/about
-  image: /img/sponsors/mlh.svg
 
-- name: Sticker Mule
-  link: http://hackp.ac/mlh-stickermule-hackathons
-  image: /img/sponsors/sticker-mule.svg
-
-- name: Currito
-  link: https://currito.com/
-  image: /img/sponsors/Currito.jpg
